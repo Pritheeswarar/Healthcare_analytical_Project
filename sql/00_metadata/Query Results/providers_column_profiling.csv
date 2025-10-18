@@ -1,0 +1,6 @@
+column_name,data_type,sample_rows,null_count,null_pct,distinct_count,min_value,max_value,sample_values
+department_id,int,512,0,0.00,108,1,108,"10 (8), 103 (8), 12 (8), 18 (8), 21 (8)"
+name,nvarchar,512,0,0.00,494,NULL,NULL,"Anand Kamath (2), Arjun Subramanian, MD (2), Dr Arjun Agarwal (2), Dr Indira Reddy (2), Dr. G. Pillai (2)"
+provider_id,int,512,0,0.00,512,1001,2582,"1001 (1), 1005 (1), 1010 (1), 1014 (1), 1018 (1)"
+specialty,nvarchar,512,0,0.00,15,NULL,NULL,"Dermatology (46), Pathology (43), Emergency Medicine (41), Surgery (38), Psychiatry (36)"
+years_experience,tinyint,512,0,0.00,35,1,35,"32 (22), 10 (21), 21 (20), 30 (20), 26 (19)"

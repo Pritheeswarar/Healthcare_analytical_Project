@@ -1,0 +1,14 @@
+{
+    // Enable wrap for SQL editors so KPI scripts stay readable on review.
+    "[sql]": {
+        "editor.wordWrap": "on"
+    },
+    // Remove stray whitespace on save to keep diffs clean.
+    "files.trimTrailingWhitespace": true,
+    // Auto-format on save when a formatter is available (SQLFluff, MSSQL, etc.).
+    "editor.formatOnSave": true,
+    // Treat .sql files as SQL Server (T-SQL) across the workspace.
+    "files.associations": {
+        "*.sql": "sql"
+    }
+}

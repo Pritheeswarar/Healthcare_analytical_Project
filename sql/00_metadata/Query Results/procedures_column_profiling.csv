@@ -1,0 +1,8 @@
+column_name,data_type,sample_rows,null_count,null_pct,distinct_count,min_value,max_value,sample_values
+admission_id,int,310113,0,0.00,229742,50001,1.69059e+006,"1000046 (3), 1000175 (3), 1000289 (3), 1000490 (3), 1000727 (3)"
+cpt_code,int,310113,46505,15.00,15,27447,99213,"47562 (17798), 27447 (17733), 59510 (17722), 59400 (17711), 85025 (17639)"
+procedure_cost,float,310113,61926,19.97,204363,500.11,49999.9,"17930.3 (7), 37448.5 (7), 14055 (6), 23800.8 (6), 31467.3 (6)"
+procedure_date,nvarchar,310113,7642,2.46,13006,NULL,NULL,"NULL (5228), 2022-05-13 (181), 2023-09-09 (177), 2021-01-12 (176), 2021-12-07 (176)"
+procedure_description,nvarchar,310113,0,0.00,66,NULL,NULL,"Colonoscopy (13594), Office Visit (12980), Total Knee Replacement (10527), Cesarean Section (10420), Blood Draw (10419)"
+procedure_id,int,310113,0,0.00,310113,90001,710263,"100001 (1), 100003 (1), 100004 (1), 100005 (1), 100007 (1)"
+provider_id,int,310113,30997,10.00,512,1001,2582,"1526 (612), 1984 (608), 1753 (601), 1881 (601), 1636 (599)"

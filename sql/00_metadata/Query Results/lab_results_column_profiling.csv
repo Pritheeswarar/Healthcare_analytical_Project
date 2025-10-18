@@ -1,0 +1,10 @@
+column_name,data_type,sample_rows,null_count,null_pct,distinct_count,min_value,max_value,sample_values
+admission_id,int,2242286,0,0.00,393844,50001,1.69061e+006,"1000031 (12), 1000049 (12), 1000078 (12), 1000122 (12), 1000191 (12)"
+lab_result_id,int,2242286,0,0.00,2242286,200001,3.56468e+006,"1000001 (1), 1000002 (1), 1000004 (1), 1000006 (1), 1000007 (1)"
+lab_technician,nvarchar,2242286,447701,19.97,1968,NULL,NULL,"Thara Raj (1031), Nalini Krishnan (1008), Deepak Patel (1001), Arjun Sawant (999), Hema Menon (992)"
+reference_range,nvarchar,2242286,179181,7.99,77,NULL,NULL,"3.5-5.0 (89828), 3.5 - 5.0 (67671), 70-200 (45198), 0.4-4.5 (45084), See attached (45034)"
+result_value,float,2242286,67218,3.00,241922,0.1,899940,"0.92 (2285), 1.07 (2278), 1.18 (2245), 0.99 (2237), 0.66 (2234)"
+status,nvarchar,2242286,112021,5.00,13,NULL,NULL,"N (426637), WNL (426624), Normal (426023), Within limits (425473), Decreased (53307)"
+test_date,nvarchar,2242286,56000,2.50,14029,NULL,NULL,"NULL (37573), 2020-11-10 (1150), 2023-02-28 (1135), 2025-04-02 (1126), 2023-07-25 (1119)"
+test_name,nvarchar,2242286,0,0.00,20,NULL,NULL,"Albumin (112604), ALT (112513), Blood Glucose (112470), TSH (112323), Triglycerides (112312)"
+unit,nvarchar,2242286,0,0.00,6,NULL,NULL,"mg/dL (896993), g/dL (336672), U/L (336250), mEq/L (336208), cells/μL (223840)"

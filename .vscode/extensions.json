@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "ms-mssql.mssql", // Core SQL Server tooling for query execution and connection management.
+        "ms-mssql.sql-database-projects-vscode", // Optional project tooling for schema comparison and DACPAC workflows.
+        "GitHub.copilot", // AI pair-programmer to accelerate SQL authoring within standards.
+        "GitHub.copilot-chat", // Conversational helper for explaining queries and troubleshooting.
+        "EditorConfig.EditorConfig", // Enforces consistent whitespace rules across collaborators.
+        "rashwell.sqlfluff" // Integrates SQLFluff linting/fixing inside VS Code.
+    ]
+}
