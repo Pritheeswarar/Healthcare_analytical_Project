@@ -5,8 +5,8 @@ Description: Column profiling template returning per-column statistics with opti
 
 USE [Healthcare];
 
-DECLARE @schema sysname = 'dbo';
-DECLARE @table sysname = 'providers';
+DECLARE @schema sysname = 'stg';
+DECLARE @table sysname = 'admissions_std';
 
 DECLARE @qualified_table nvarchar(520) = QUOTENAME(@schema) + '.' + QUOTENAME(@table);
 DECLARE @object_id int = OBJECT_ID(@qualified_table);
