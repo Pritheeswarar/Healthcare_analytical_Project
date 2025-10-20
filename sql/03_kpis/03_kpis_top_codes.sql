@@ -1,0 +1,4 @@
+-- Placeholder KPI definitions: ICD/CPT frequency and Pareto analysis
+-- Inputs: sql/02_transform/diagnoses_xf.sql, sql/02_transform/procedures_xf.sql
+-- Rule: no direct joins to raw or staging layers; consume transform outputs exclusively
+-- TODO: Fill in metric logic once KPI definitions are finalized.

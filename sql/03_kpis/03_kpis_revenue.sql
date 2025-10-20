@@ -1,0 +1,4 @@
+-- Placeholder KPI definitions: billed vs paid vs patient_due tie-out
+-- Inputs: sql/02_transform/billing_xf.sql and supporting transform views
+-- Rule: no direct joins to raw or staging layers; consume transform outputs exclusively
+-- TODO: Fill in metric logic once KPI definitions are finalized.

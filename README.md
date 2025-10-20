@@ -22,15 +22,25 @@ This project provides reusable SQL assets to support core hospital analytics use
 
 ```text
 sql/
-  00_metadata/        -- Source system dictionaries, table inventories, lineage
-  01_staging/         -- Raw-to-staging extracts, minimal transformations
-  02_transformations/ -- Business logic, normalization, surrogate keys
-  03_kpi/             -- Final KPI queries, dashboards, export-ready SQL
-  04_tests/           -- Data quality checks, regression tests, harness SQL
+  00_metadata/           -- Source system inventories, profiling utilities
+  01_staging_optimized/  -- Thin views that enforce typing and basic cleanup
+  02_transform/          -- Entity conformance; join to ref.* lookups
+  03_kpis/               -- Business-ready metrics sourced from transform
 
-docs/                 -- Governance notes, process docs, analyst guides
-standards/            -- SQL style, naming conventions, reusable templates
+ops/
+  benchmarking/          -- Health checks and runtime tracking
+
+ref/                     -- Reference tables and mappings (DDL stubs only)
+docs/                    -- Governance notes, process docs, analyst guides
+standards/               -- SQL style, naming conventions, reusable templates
+tests/                   -- tSQLt scaffolding and harness docs
 ```
+
+**Layer responsibilities**
+- `sql/01_staging_optimized/`: Stabilize source feeds with type enforcement and light normalization; no business joins.
+- `sql/02_transform/`: Harmonize values, apply mappings from `ref/`, and prep conformed entities for reporting.
+- `sql/03_kpis/`: Calculate KPIs and trends using only transform outputs; avoid direct reads from raw or staging.
+- `ref/`: Centralize code sets and mapping tables that transformations depend on.
 
 ## Secure Connections with VS Code MSSQL Extension
 

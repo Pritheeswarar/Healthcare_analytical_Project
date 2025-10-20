@@ -12,7 +12,7 @@ The HIPAA Privacy Rule describes a Safe Harbor method for de-identification. It 
 
 ## Handling Admission and Discharge Dates
 
-- Store full timestamps only in secured, governed staging tables (`sql/01_staging/`).
+- Store full timestamps only in secured, governed staging tables (`sql/01_staging_optimized/`).
 - For analytics exports, bucket admission and discharge dates to the first day of the month (e.g., `2025-10-01`).
 - When day-level trends are required, apply a deterministic but undocumented day shift of +/- up to 3 days per encounter and document the shift logic in internal notes (never in public docs).
 - Suppress any date values for patients aged 89 and older, replacing with a capped age band (e.g., `90+`).
@@ -34,7 +34,7 @@ The HIPAA Privacy Rule describes a Safe Harbor method for de-identification. It 
 
 ## Analyst Checklist
 
-- Review queries for direct identifiers prior to moving SQL into `sql/03_kpi/`.
+- Review queries for direct identifiers prior to moving SQL into `sql/03_kpis/`.
 - Validate that date bucketing or shifting logic is applied consistently.
 - Confirm hashing functions reference the current salt and are executed within the database (no local exports of raw IDs).
 - Document any residual risk in the accompanying analysis ticket and highlight it during code review.

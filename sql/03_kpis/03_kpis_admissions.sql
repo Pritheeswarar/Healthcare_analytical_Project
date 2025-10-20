@@ -1,0 +1,4 @@
+-- Placeholder KPI definitions: LOS, admissions trend, throughput diagnostics
+-- Inputs: sql/02_transform/admissions_xf.sql and related transform views only
+-- Rule: no direct joins to raw or staging layers; consume transform outputs exclusively
+-- TODO: Fill in metric logic once KPI definitions are finalized.

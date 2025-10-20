@@ -1,0 +1,4 @@
+-- Placeholder KPI definitions: lab completion % and admit-to-test turnaround
+-- Inputs: sql/02_transform/lab_results_xf.sql, sql/02_transform/admissions_xf.sql
+-- Rule: no direct joins to raw or staging layers; consume transform outputs exclusively
+-- TODO: Fill in metric logic once KPI definitions are finalized.
