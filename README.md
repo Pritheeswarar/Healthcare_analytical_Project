@@ -36,7 +36,8 @@ standards/               -- SQL style, naming conventions, reusable templates
 tests/                   -- tSQLt scaffolding and harness docs
 ```
 
-**Layer responsibilities**
+### Layer responsibilities
+
 - `sql/01_staging_optimized/`: Stabilize source feeds with type enforcement and light normalization; no business joins.
 - `sql/02_transform/`: Harmonize values, apply mappings from `ref/`, and prep conformed entities for reporting.
 - `sql/03_kpis/`: Calculate KPIs and trends using only transform outputs; avoid direct reads from raw or staging.
