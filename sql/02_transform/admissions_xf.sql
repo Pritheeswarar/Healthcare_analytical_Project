@@ -1,5 +1,0 @@
--- Purpose: Entity-level standardization & conformance (types ok in staging; value harmonization here)
--- Inputs: stg_optimized.admissions_std
--- Outputs: xfm.admissions (view/table TBA)
--- Notes: join to ref.* mappings; enforce referential checks; no heavy aggregations (those belong to KPIs)
--- TODO: Populate after strategy is locked.

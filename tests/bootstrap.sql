@@ -1,4 +1,0 @@
--- Step 1: Install tSQLt into the sandbox database (see tSQLt install script).
--- Step 2: Create test classes: test_transform for entity conformance, test_kpis for metrics.
--- Step 3: Scaffold Arrange-Act-Assert test templates under each class.
--- Step 4: Document any shared fixtures or fake tables required by the suites.

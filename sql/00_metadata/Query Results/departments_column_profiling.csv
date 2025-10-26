@@ -1,7 +1,0 @@
-column_name,data_type,sample_rows,null_count,null_pct,distinct_count,min_value,max_value,sample_values
-avg_occupancy,float,108,0,0.00,34,0.6,0.94,"0.83 (6), 0.85 (6), 0.62 (5), 0.81 (5), 0.66 (4)"
-bed_count,tinyint,108,0,0.00,39,10,50,"25 (8), 16 (7), 14 (5), 44 (5), 50 (5)"
-department_id,tinyint,108,0,0.00,108,1,108,"1 (1), 10 (1), 100 (1), 101 (1), 102 (1)"
-dept_name,nvarchar,108,0,0.00,48,NULL,NULL,"General Medicine (5), Oncology (5), Bone (4), Gen Med (4), Ortho (4)"
-hod,nvarchar,108,0,0.00,106,NULL,NULL,"Dr. Kumar Hegde (2), Dr. Sita Murugan (2), Dr. Anand Desai (1), Dr. Anand Gupta (1), Dr. Anand Iyer (1)"
-hospital_id,tinyint,108,0,0.00,5,1,5,"1 (24), 4 (22), 2 (21), 3 (21), 5 (20)"

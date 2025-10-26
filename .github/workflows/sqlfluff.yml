@@ -1,0 +1,26 @@
+name: SQLFluff
+
+on:
+  push:
+    paths:
+      - 'sql/**'
+      - 'ref/**'
+      - 'ops/**'
+  pull_request:
+    paths:
+      - 'sql/**'
+      - 'ref/**'
+      - 'ops/**'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install SQLFluff
+        run: pip install sqlfluff
+      - name: Lint SQL
+        run: sqlfluff lint sql ref ops --dialect tsql

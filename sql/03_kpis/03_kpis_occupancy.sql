@@ -1,4 +1,0 @@
--- Placeholder KPI definitions: patient-days / (beds × days) occupancy metrics
--- Inputs: sql/02_transform/departments_xf.sql, sql/02_transform/hospitals_xf.sql
--- Rule: no direct joins to raw or staging layers; consume transform outputs exclusively
--- TODO: Fill in metric logic once KPI definitions are finalized.

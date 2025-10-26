@@ -1,4 +1,0 @@
--- Placeholder KPI definitions: 30-day readmission rates and related cohorts
--- Inputs: sql/02_transform/admissions_xf.sql, sql/02_transform/patients_xf.sql
--- Rule: no direct joins to raw or staging layers; consume transform outputs exclusively
--- TODO: Fill in metric logic once KPI definitions are finalized.

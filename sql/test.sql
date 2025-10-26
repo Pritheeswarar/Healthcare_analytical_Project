@@ -1,1 +1,0 @@
-select * from stg.patients_std

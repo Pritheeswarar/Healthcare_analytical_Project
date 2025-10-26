@@ -1,7 +1,0 @@
-column_name,data_type,sample_rows,null_count,null_pct,distinct_count,min_value,max_value,sample_values
-admission_id,int,1247442,0,0.00,656407,50001,1690609,"1000002 (4), 1000055 (4), 1000078 (4), 100009 (4), 1000105 (4)"
-diagnosis_date,nvarchar,1247442,91995,7.37,13851,NULL,NULL,"NULL (19434), 2022-10-13 (853), 2024-11-13 (843), 2023-10-04 (840), 2023-12-11 (833)"
-diagnosis_description,nvarchar,1247442,0,0.00,205,NULL,NULL,"Insomnia (15085), Asthma (13885), GERD (13765), Dengue fever (13695), Constipation (13664)"
-diagnosis_id,int,1247442,0,0.00,1247442,80001,1950921,"1000000 (1), 1000001 (1), 1000003 (1), 1000005 (1), 1000007 (1)"
-diagnosis_type,nvarchar,1247442,0,0.00,2,NULL,NULL,"Primary (656407), Secondary (591035)"
-icd_code,nvarchar,1247442,124323,9.97,50,NULL,NULL,"L30.9 (22714), J45.9 (22713), K21.9 (22701), C78.00 (22691), K80.20 (22684)"
